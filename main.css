@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body  {
+    font-family: 'Oswald', sans-serif;
+}
+
+header h1,
+section h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px;
+    background-color: #162636;
+    color: #d5c535;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #d5c535;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Front-img {
+    max-width: 640px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    background-color:#bd848d;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #d5c535;
+    font-weight: normal;
+    font-size: 52px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: larger;
+}
+
+.Front-img {
+    margin-right: 32px;
+}
+
+.Selo {
+    margin-top: 32px;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size:48px;
+    margin-right: 50px;
+    
+}
+.contact{
+    color: #ca0808;
+    font: size 52px;
+    margin-bottom: 8px  ;
+}
+
+.info {
+    max-width:1280px ;
+}
+
+footer img{
+    max-width: auto;
+    background-color: #bd848d;
+}
